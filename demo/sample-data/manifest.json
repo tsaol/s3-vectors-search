@@ -1,0 +1,6 @@
+{
+  "hr/leave-policy.md":        {"acl": "all-staff",  "dept": "HR",         "uploader": "hr-admin"},
+  "hr/payroll.md":             {"acl": "hr-payroll", "dept": "HR",         "uploader": "payroll-admin"},
+  "it/vpn-faq.md":             {"acl": "all-staff",  "dept": "IT",         "uploader": "it-helpdesk"},
+  "facilities/badge-policy.md":{"acl": "all-staff",  "dept": "Facilities", "uploader": "facilities"}
+}
