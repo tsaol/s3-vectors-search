@@ -34,6 +34,10 @@ python 99_cleanup.py --bucket my-vectors-demo     # 删除
 
 ## 场景 demo：S3 文件语义检索
 
+![架构图](docs/img/architecture.png)
+
+（源文件：[docs/img/architecture.drawio](docs/img/architecture.drawio)，每一步的说明见 [讲解页](https://liucao.me/s3/vectors/#demo)）
+
 ```
 S3 源桶 ─事件→ SQS ─→ Lambda（抽取 / OCR / 切分 / embedding）─→ S3 Vectors（ENHANCED，混合检索）
                                                                      ▲

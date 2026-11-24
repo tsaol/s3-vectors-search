@@ -34,6 +34,10 @@ python 99_cleanup.py --bucket my-vectors-demo
 
 ## Scenario demo: S3 file semantic search
 
+![Architecture](docs/img/architecture.png)
+
+(Source: [docs/img/architecture.drawio](docs/img/architecture.drawio))
+
 ```
 S3 bucket ─events→ SQS ─→ Lambda (extract / OCR / chunk / embed) ─→ S3 Vectors (ENHANCED, hybrid search)
                                                                         ▲
